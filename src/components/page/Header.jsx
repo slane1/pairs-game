@@ -22,7 +22,7 @@ export default function Header() {
                 <h2>Pairs Game</h2>
             </div>
                 {missed ? 
-            <div className='flex flex-col items-center p-1 m-2 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700'>
+            <div className='flex flex-col items-center p-2 m-2 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700'>
                 <p>Failes</p>
                 <p>{missed}</p>
             </div>
