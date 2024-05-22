@@ -19,11 +19,11 @@ export default function Header() {
     return (
         <header className="flex justify-between items-center mr-10 ml-10 mt-1">
             <div>
-                <h2>Memory Card Game</h2>
+                <h2>Pairs Game</h2>
             </div>
                 {missed ? 
-            <div className='flex flex-col items-center'>
-                <p>Failed Attempt</p>
+            <div className='flex flex-col items-center p-1 m-2 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700'>
+                <p>Failes</p>
                 <p>{missed}</p>
             </div>
                 : null}
